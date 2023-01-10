@@ -42,7 +42,7 @@ function MyTable(props: MyTableProps): JSX.Element {
                         <th>id</th>
                         <th>name</th>
                         <th>type</th>
-                        {/* <th>created</th> */}
+                        <th>created</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -52,7 +52,7 @@ function MyTable(props: MyTableProps): JSX.Element {
                                 <td>{loc.id}</td>
                                 <td>{loc.name}</td>
                                 <td>{loc.type}</td>
-                                {/* <td>{loc.created.toString()}</td> */}
+                                <td>{loc.created.toString()}</td>
                             </tr>
                         )
                     }
